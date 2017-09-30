@@ -1,0 +1,371 @@
+body {
+
+	padding: 0;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 150%;
+	background: url("../images/concrete-texture.png");
+
+
+}
+/*this is my header name*/
+.name {
+	background-color: #4aaaa5;
+	float: left;
+	padding-left: 5px;
+	color: white;
+	margin: 0 0 0 201px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 25px;
+	width: 225px;
+	height: 60px;
+}
+
+
+/* this is my header color*/
+.site-header {
+	clear: both;
+	background-color: white;
+	color: gray;
+	box-shadow: 5px 5px 5px grey;
+
+}
+
+.site-header a {
+	text-decoration: none;
+
+}
+.aboutFont { 
+	color: #4aaaa5; 
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.site-header::after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+form label {
+	display: block;
+}
+
+/* this is about me and social media container*/
+.container {
+  width: 1024px;
+  /*height: 300px;*/
+  margin: 0 auto;
+  padding-top: 100px;
+  /*margin-bottom: 100px;*/
+  /*margin-bottom: 300px;*/
+}
+
+.container::after {
+	display: block;
+	clear:both;
+	content:'';
+}
+
+/* top menue board*/
+.menue {
+	color: #cccccc;
+	float: right;
+	padding-right: 210px;
+	padding-top: 27px;
+
+}
+
+.aboutline {
+	border-bottom: 2px solid gray;
+}
+
+/*the about me page*/
+.about {
+	background-color: white;
+	clear: both;
+	width: 550px;
+	float: left;
+	border: 1px solid grey;
+	padding: 14px 20px;
+	margin-bottom: 185px;
+	
+}
+
+
+#aboutheading {
+	font-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 35px;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+
+.aboutpic {
+	padding-top: 10px;
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	width: 200px;
+}
+
+/*paragraph*/
+p {
+	font-size: 12px;
+}
+
+.socialmedia {
+	float: right;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 350px;
+	height: 75px;
+	text-align: center;
+	border: 1px solid grey
+}
+
+.medialine {
+	border-bottom: 2px solid gray;
+	padding-bottom: 25px;
+	margin-bottom: 5px;
+}
+
+.socialPic {
+	width: 100px;
+	height: 100px;
+	padding-top: 10px;
+}
+
+/*epty div*/
+.emptyDiv {
+	margin-bottom: 10px;
+}
+/*end*/
+
+/*contact me page*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contactMe {
+	padding: 15px;
+}
+
+
+.subName {
+	margin-top: ;
+}
+/*End of contact me page*/
+
+/*Beginning of portfolio*/
+
+
+
+.portfolioImage {
+	float: left;
+	width: 250px;
+}
+
+
+.portfolioImage:nth-of-type(odd) {
+	margin-right: 40px;
+}
+
+
+.hangman {
+	background-color: #4aaaa5;
+	color: white;
+	padding-left: 5px;
+	margin: 0 0 0 201px;
+	right: 201px;
+	bottom: 75px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 17px;
+	width: 246px;
+	height: 40px;
+	position: relative;
+	float: left;
+}
+
+.rpg {
+	background-color: #4aaaa5;
+	color: white;
+	padding-left: 5px;
+	margin: 0 0 0 201px;
+	right: 201px;
+	bottom: 75px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 17px;
+	width: 246px;
+	height: 40px;
+	position: relative;
+}
+
+
+.trivia {
+	background-color: #4aaaa5;
+	color: white;
+	padding-left: 5px;
+	margin: 0 0 0 201px;
+	right: 201px;
+	bottom: 75px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 17px;
+	width: 246px;
+	height: 40px;
+	position: relative;
+}
+
+.widget {
+	background-color: #4aaaa5;
+	color: white;
+	padding-left: 5px;
+	margin: 0 0 0 201px;
+	right: 201px;
+	bottom: 75px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 17px;
+	width: 246px;
+	height: 40px;
+	position: relative;
+}
+
+.rock {
+	background-color: #4aaaa5;
+	color: white;
+	padding-left: 5px;
+	margin: 0 0 0 201px;
+	right: 201px;
+	bottom: 75px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 17px;
+	width: 246px;
+	height: 40px;
+	position: relative;
+
+}
+/*end of porfolio*/
+
+footer {
+	background-color: #666666;
+	clear: both;
+	text-align: center;
+	font-size: 10px;
+	position: fixed;
+	bottom: 0;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 45px;
+	color: gray;
+	border-top: thick solid #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+	
+	.socialmedia {
+		float: left;
+		clear: both;
+		width: 549px;
+		height: 60px;
+		
+	}
+
+	.socialPic {
+		width: 50px;
+		height: 50px;
+		padding-top: 5px;
+	}
+
+	.about {
+		clear: both;
+		margin-bottom: 24px;
+	}
+
+	.container {
+		margin-left: 208px;
+		margin-bottom: 100px;
+	}
+	
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.container {
+		margin-left: 91px;
+		margin-bottom: 100px;
+	}
+
+
+	.name {
+		margin: 0 0 0 92px;
+	}
+
+	.menue {
+		padding-right: 87px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+	.name {
+		margin: -7px 0 0 0;
+		height: 48px;
+		width: 635px;
+	}
+	
+	.about {
+		margin-left: -44px;
+		width: 494px;
+
+	}
+
+	.socialmedia {
+		margin-left: -43px;
+		width: 494px;
+	}
+
+	.menue {
+		font-size: 19px;
+		padding-right: 206px;
+	}
+
+	.portfolioImage {
+		clear: both;
+		width: 493px;
+	}
+}
