@@ -207,7 +207,7 @@ input[type=submit]:hover {
 	font-size: 20px;
 	text-align: center;
 	padding-top: 17px;
-	width: 246px;
+	width: 272px;
 	height: 40px;
 	position: relative;
 	float: left;
@@ -291,81 +291,3 @@ footer {
 	border-top: thick solid #4aaaa5;
 }
 
-@media screen and (max-width: 980px) {
-	
-	.socialmedia {
-		float: left;
-		clear: both;
-		width: 549px;
-		height: 60px;
-		
-	}
-
-	.socialPic {
-		width: 50px;
-		height: 50px;
-		padding-top: 5px;
-	}
-
-	.about {
-		clear: both;
-		margin-bottom: 24px;
-	}
-
-	.container {
-		margin-left: 208px;
-		margin-bottom: 100px;
-	}
-	
-
-}
-
-@media screen and (max-width: 768px) {
-
-	.container {
-		margin-left: 91px;
-		margin-bottom: 100px;
-	}
-
-
-	.name {
-		margin: 0 0 0 92px;
-	}
-
-	.menue {
-		padding-right: 87px;
-	}
-
-}
-
-
-
-@media screen and (max-width: 640px) {
-
-	.name {
-		margin: -7px 0 0 0;
-		height: 48px;
-		width: 635px;
-	}
-	
-	.about {
-		margin-left: -44px;
-		width: 494px;
-
-	}
-
-	.socialmedia {
-		margin-left: -43px;
-		width: 494px;
-	}
-
-	.menue {
-		font-size: 19px;
-		padding-right: 206px;
-	}
-
-	.portfolioImage {
-		clear: both;
-		width: 493px;
-	}
-}
